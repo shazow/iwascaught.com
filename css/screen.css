@@ -1,5 +1,6 @@
 body { background: #121212; padding: 0; margin: 0; font-family: Helvetica, Arial, sans-serif; }
 #head { background: #fefefe; color: #444;  }
+form { margin: 0; padding: 0; }
 #head form { padding-left: 24px; font-size: 24px; line-height: 3em; font-size: 48px; white-space: nowrap; text-transform: uppercase; font-weight: bold; letter-spacing: -3px; }
 #head form input { font-size: 48px; width: 240px; }
 #results { padding: 16px; }
@@ -25,3 +26,5 @@ strong {font-weight: normal; }
 .style5 strong  { color: #0b2851; }
 .style6 { color: #999999; }
 .style6 strong  { color: #484848; }
+
+ul, li { display: inline; margin: 0; padding: 0; }
