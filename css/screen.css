@@ -13,15 +13,15 @@ body { background: #121212; padding: 0; margin: 0; font-family: Helvetica, Arial
 }
 
 strong {font-weight: normal; }
-.style1 { color: #1effaf; }
-.style1 strong  { color: #0c6646; }
-.style2 { color: #ff6ca3; }
-.style2 strong  { color: #662b41; }
-.style3 { color: #ffff6c; }
-.style3 strong  { color: #66662b; }
-.style4 { color: #8eff6c; }
-.style4 strong  { color: #39662b; }
-.style5 { color: #1eb5ff; }
-.style5 strong  { color: #0c4866; }
-.style6 { color: #9a6cff; }
-.style6 strong  { color: #3e2b66; }
+.style1 { color: #b6d539; }
+.style1 strong  { color: #546022; }
+.style2 { color: #0d8f69; }
+.style2 strong  { color: #104435; }
+.style3 { color: #fa6d13; }
+.style3 strong  { color: #6f3713; }
+.style4 { color: #cb1925; }
+.style4 strong  { color: #5c151a; }
+.style5 { color: #004bae; }
+.style5 strong  { color: #0b2851; }
+.style6 { color: #999999; }
+.style6 strong  { color: #484848; }
