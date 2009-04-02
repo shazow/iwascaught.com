@@ -27,6 +27,6 @@ function render_results(data, name) {
     $("#results").html("<ul></ul>");
     $.each(data.responseData.results, function(i, result) {
         console.log(name);
-        $("#results ul:first").append("<li>" +  convert_content(result.content, name) + "</li>");
+        $("#results ul:first").append('<li class="style' + ((i % 6) + 1 )+ '">' +  convert_content(result.content, name) + '</li>');
     });
 }
