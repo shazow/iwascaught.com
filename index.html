@@ -9,11 +9,15 @@
     <script type="text/javascript" src="js/core.js"></script>
     <script type="text/javascript">
         google.load("jquery", "1");
+        google.setOnLoadCallback(function() {
+            check_hash();
+        });
+
     </script>
 </head>
 <body>
     <div id="head">
-        <form action="#" method="get" onsubmit="do_query(); return false">
+        <form action="#" method="get" onsubmit="go_permalink(); return false">
             <input type="text" class="title" id="name" value="" /> was caught&hellip;
         </form>
     </div>
