@@ -9,31 +9,23 @@
     <script type="text/javascript" src="js/core.js"></script>
     <script type="text/javascript">
         google.load("jquery", "1");
-        google.setOnLoadCallback(function() {
-            check_hash();
-        });
-
     </script>
 </head>
 <body>
     <div id="head">
-        <form action="#" method="get" onsubmit="go_permalink(); return false">
+        <form action="#" method="get" onsubmit="do_query(); return false">
             <input type="text" class="title" id="name" value="" /> was caught&hellip;
         </form>
     </div>
     <div id="results">
+        <ul>
+            <li class="style1"><strong>Andrey was caught</strong> running into a dinosaur at a comic convention.</li>
+            <li class="style2"><strong>Andrey was caught</strong> critisizing Ryan's colour selection.</li>
+            <li class="style3"><strong>Andrey was caught</strong> squishing a squid into his soup.</li>
+            <li class="style4"><strong>Andrey was caught</strong> trying on hats at the town bazaar.</li>
+            <li class="style5"><strong>Andrey was caught</strong> not being able to help himself.</li>
+            <li class="style6"><strong>Andrey was caught</strong> in a machine with his arms because of Ryan.</li>
+        </ul>
     </div>
-
-    <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-8217505-1");
-pageTracker._trackPageview();
-} catch(err) {}
-    </script>
-
 </body>
 </html>
