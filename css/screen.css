@@ -14,17 +14,19 @@ form { margin: 0; padding: 0; }
 }
 
 strong {font-weight: normal; }
-.style1 { color: #b6d539; }
+.style1 { color: #F5670C; }
+.style2 { color: #EBB700; }
+.style3 { color: #DE0044; }
+.style4 { color: #7D0CF5; }
+.style5 { color: #0C64EB; }
+.style6 { color: #cccccc; }
+/*
 .style1 strong  { color: #546022; }
-.style2 { color: #0d8f69; }
 .style2 strong  { color: #104435; }
-.style3 { color: #fa6d13; }
 .style3 strong  { color: #6f3713; }
-.style4 { color: #cb1925; }
 .style4 strong  { color: #5c151a; }
-.style5 { color: #004bae; }
 .style5 strong  { color: #0b2851; }
-.style6 { color: #999999; }
 .style6 strong  { color: #484848; }
+*/
 
 ul, li { display: inline; margin: 0; padding: 0; }
